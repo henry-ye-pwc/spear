@@ -1,0 +1,81 @@
+
+[prefetch] W3: 200/208 (本批208只, 共832只)
+[prefetch] W0: 200/208 (本批208只, 共832只)
+[prefetch] W2: 200/208 (本批208只, 共832只)
+[prefetch] Done: 757 updated, 0 errors in 3.5s (4ms/sym, 4 workers)
+[prefetch] Failed symbols (75): 000005, 000041, 000054, 000102, 000109, 000127, 000136, 000137, 000138, 000140, 000201, 000206, 000224, 000236, 000257, 000259, 000263, 000279, 000285, 000286, 000304, 000316, 000347, 000373, 000376, 000383, 000398, 000440, 000461, 000467, 000470, 000473, 000481, 000487, 000540, 000604, 000666, 000684, 000696, 000772, 000775, 000806, 000835, 000842, 000843, 000855, 000857, 000861, 000870, 000982, 000986, 000991, 001016, 001018, 001021, 001031, 001035, 001042, 001073, 001086, 001087, 001093, 001127, 001162, 001191, 001200, 001232, 001248, 001377, 001486, 001536, 001571, 001606, 001607, 001611
+[ytd-backtest] processing 42 date(s): 2026-01-05 ~ 2026-03-11
+[prepare] 832 symbols, range=2024-07-19~2026-03-11, target_dates=['2026-01-05', '2026-01-06', '2026-01-07', '2026-01-08', '2026-01-09', '2026-01-12', '2026-01-13', '2026-01-14', '2026-01-15', '2026-01-16', '2026-01-19', '2026-01-20', '2026-01-21', '2026-01-22', '2026-01-23', '2026-01-26', '2026-01-27', '2026-01-28', '2026-01-29', '2026-01-30', '2026-02-02', '2026-02-03', '2026-02-04', '2026-02-05', '2026-02-06', '2026-02-09', '2026-02-10', '2026-02-11', '2026-02-12', '2026-02-13', '2026-02-24', '2026-02-25', '2026-02-26', '2026-02-27', '2026-03-02', '2026-03-03', '2026-03-04', '2026-03-05', '2026-03-06', '2026-03-09', '2026-03-10', '2026-03-11']
+✅ 通达信连接成功
+✅ 通达信连接成功
+[prepare] Phase A+B: 50/832 [46.0s]
+[prepare] Phase A+B: 100/832 [81.9s]
+[prepare] Phase A+B: 150/832 [120.3s]
+[prepare] Phase A+B: 200/832 [156.5s]
+[prepare] Phase A+B: 250/832 [191.5s]
+[prepare] Phase A+B: 300/832 [226.2s]
+[prepare] Phase A+B: 350/832 [265.8s]
+[prepare] Phase A+B: 400/832 [299.5s]
+[prepare] Phase A+B: 450/832 [333.6s]
+[prepare] Phase A+B: 500/832 [370.7s]
+[prepare] Phase A+B: 550/832 [408.0s]
+[prepare] Phase A+B: 600/832 [443.8s]
+[prepare] Phase A+B: 650/832 [481.6s]
+[prepare] Phase A+B: 700/832 [517.4s]
+[prepare] Phase A+B: 750/832 [554.1s]
+[prepare] Phase A+B done: 757 loaded, 75 skipped in 557.1s (2 workers)
+[prepare] Skipped symbols (75): 000005, 000041, 000054, 000102, 000109, 000127, 000136, 000137, 000138, 000140, 000201, 000206, 000224, 000236, 000257, 000259, 000263, 000279, 000285, 000286, 000304, 000316, 000347, 000373, 000376, 000383, 000398, 000440, 000461, 000467...
+[prepare] Signal count: 42 date(s), 31694 (sym,date) pairs
+[prepare] Phase C: second-pass for 42 date(s), 757 symbols ...
+[prepare] Phase C skip filter: 897 pairs w/ signals, 674 active (date,theme) combos
+[prepare] Phase C: 100/757 [5.8s]
+[prepare] Phase C: 200/757 [12.8s]
+[prepare] Phase C: 300/757 [19.3s]
+[prepare] Phase C: 400/757 [26.4s]
+[prepare] Phase C: 500/757 [33.3s]
+[prepare] Phase C: 600/757 [41.2s]
+[prepare] Phase C: 700/757 [50.4s]
+[prepare] Phase C done in 56.6s — 7701/31694 processed, 23993 skipped | total prepare_bundle: 613.7s
+[process] 2026-01-05: 4 new, 2 active, 2 dropped
+[process] 2026-01-06: 15 new, 12 active, 5 dropped
+[process] 2026-01-07: 15 new, 23 active, 4 dropped
+[process] 2026-01-08: 20 new, 37 active, 6 dropped
+[process] 2026-01-09: 14 new, 43 active, 8 dropped
+[process] 2026-01-12: 14 new, 54 active, 3 dropped
+[process] 2026-01-13: 33 new, 72 active, 15 dropped
+[process] 2026-01-14: 51 new, 95 active, 28 dropped
+[process] 2026-01-15: 37 new, 113 active, 19 dropped
+[process] 2026-01-16: 35 new, 124 active, 24 dropped
+[process] 2026-01-19: 25 new, 134 active, 15 dropped
+[process] 2026-01-20: 17 new, 133 active, 18 dropped
+[process] 2026-01-21: 32 new, 136 active, 29 dropped
+[process] 2026-01-22: 29 new, 131 active, 34 dropped
+[process] 2026-01-23: 14 new, 114 active, 31 dropped
+[process] 2026-01-26: 44 new, 116 active, 42 dropped
+[process] 2026-01-27: 26 new, 111 active, 31 dropped
+[process] 2026-01-28: 27 new, 110 active, 28 dropped
+[process] 2026-01-29: 59 new, 122 active, 47 dropped
+[process] 2026-01-30: 38 new, 109 active, 51 dropped
+[process] 2026-02-02: 76 new, 141 active, 44 dropped
+[process] 2026-02-03: 11 new, 120 active, 32 dropped
+[process] 2026-02-04: 16 new, 116 active, 20 dropped
+[process] 2026-02-05: 28 new, 101 active, 43 dropped
+[process] 2026-02-06: 39 new, 93 active, 47 dropped
+[process] 2026-02-09: 8 new, 86 active, 15 dropped
+[process] 2026-02-10: 11 new, 62 active, 35 dropped
+[process] 2026-02-11: 34 new, 79 active, 17 dropped
+[process] 2026-02-12: 11 new, 82 active, 8 dropped
+[process] 2026-02-13: 24 new, 74 active, 32 dropped
+[process] 2026-02-24: 11 new, 56 active, 29 dropped
+[process] 2026-02-25: 9 new, 55 active, 10 dropped
+[process] 2026-02-26: 9 new, 55 active, 9 dropped
+[process] 2026-02-27: 17 new, 44 active, 28 dropped
+[process] 2026-03-02: 33 new, 53 active, 24 dropped
+[process] 2026-03-03: 23 new, 39 active, 37 dropped
+[process] 2026-03-04: 91 new, 68 active, 62 dropped
+[process] 2026-03-05: 27 new, 78 active, 17 dropped
+[process] 2026-03-06: 47 new, 99 active, 26 dropped
+[process] 2026-03-09: 6 new, 77 active, 28 dropped
+[process] 2026-03-10: 24 new, 85 active, 16 dropped
+[trade-insight] Running mini-backtest on prepared bundle ...
+[backtest] data prep: 757 symbols in 0.8s
